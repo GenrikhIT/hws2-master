@@ -7,6 +7,14 @@
 }
 
 .button {
+width: 120px;
+height: 40px;
+border-radius: 20px;
+background: #0066CC;
+border: none;
+color: #FFFFFF;
+font-size: 16px;
+
 
 }
 
