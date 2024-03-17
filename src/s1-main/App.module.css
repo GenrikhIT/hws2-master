@@ -4,8 +4,11 @@
 
 .hw {
 
+    border: 1px solid  #D9D9D9;
+    min-height: 372px;
 }
 
 .hwTitle {
+    font-size: 22px;
 
 }
