@@ -1,5 +1,19 @@
 .buttonsContainer {
+display: flex;
+
+width: Hug (116px)px;
+height: Hug (30px)px;
+top: 244px;
+left: 70px;
+padding: 5px 24px 5px 24px;
+column-gap: 10px;
+border-radius: 3px 0px 0px 0px;
+opacity: 0px;
+
 }
 
 .editableSpanContainer {
+    color: #0080FF;
+    padding-left: 24px;
+
 }
