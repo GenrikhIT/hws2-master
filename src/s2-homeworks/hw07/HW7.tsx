@@ -34,7 +34,7 @@ const HW7 = () => {
                             onChangeOption={onChangeOption}
                         />
                     </div>
-                    <div>
+                    <div className={s.checkbox}>
                         <SuperRadio
                             id={'hw7-super-radio'}
                             name={'hw7-radio'}

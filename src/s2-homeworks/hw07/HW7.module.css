@@ -1,2 +1,7 @@
 .container {
+    display:flex;
+}
+
+.checkbox {
+    padding-left: 360px;
 }

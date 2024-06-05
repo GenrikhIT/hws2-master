@@ -9,6 +9,9 @@
   max-width: 100%;
   display: flex;
   justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
 }
 
 .header h1 {

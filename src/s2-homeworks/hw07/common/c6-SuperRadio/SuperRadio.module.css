@@ -1,4 +1,6 @@
 .radio {
+    margin-right: 5px;
+    
 }
 
 .radio::before {
@@ -9,6 +11,8 @@
 }
 
 .label {
+    display: flex;
+    font-size: 16px;
 }
 
 .options {
