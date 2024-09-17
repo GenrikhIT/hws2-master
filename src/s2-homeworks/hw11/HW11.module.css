@@ -2,7 +2,13 @@
 }
 
 .wrapper {
+  display: flex; /* Flexbox для горизонтального выравнивания */
+  align-items: center; /* Вертикальное выравнивание элементов */
+  justify-content: flex-start; /* Разделение элементов по всей ширине */
+  gap: 12px; /* Расстояние между элементами */
 }
 
 .number {
+  font-size: 16px;
+  width: 20px;
 }
