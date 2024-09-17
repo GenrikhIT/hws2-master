@@ -9,6 +9,13 @@ const SuperRange: React.FC<SliderProps> = (props) => {
         width: "147px",
         height: "4px",
         background: "white",
+        "& .MuiSlider-track": {
+          backgroundColor: "#00CC22",
+          border: "none",
+        },
+        "& .MuiSlider-rail": {
+          backgroundColor: "#8B8B8B", // Цвет неактивного трека (rail)
+        },
         "& .MuiSlider-thumb": {
           backgroundColor: "white", // Цвет ручки (thumb)
           width: "18px", // Размер ручки
