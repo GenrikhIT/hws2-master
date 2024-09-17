@@ -1,4 +1,8 @@
 .container {
+  width: 170px;
+  height: 204px;
+  display: flex;
+  align-items: center;
 }
 
 .wrapper {
