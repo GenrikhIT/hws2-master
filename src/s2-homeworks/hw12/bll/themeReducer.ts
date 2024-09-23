@@ -1,14 +1,33 @@
-const initState = {
-    themeId: 1,
-}
+// Определяем типы
+type ThemeState = {
+  themeId: number;
+};
 
-export const themeReducer = (state = initState, action: any): any => { // fix any
-    switch (action.type) {
-        // дописать
+type ChangeThemeAction = {
+  type: "SET_THEME_ID";
+  id: number;
+};
 
-        default:
-            return state
-    }
-}
+// Начальное состояние
+const initState: ThemeState = {
+  themeId: 1,
+};
 
-export const changeThemeId = (id: number): any => ({ type: 'SET_THEME_ID', id }) // fix any
+// Редюсер
+export const themeReducer = (
+  state = initState,
+  action: ChangeThemeAction
+): ThemeState => {
+  switch (action.type) {
+    case "SET_THEME_ID":
+      return { ...state, themeId: action.id }; // Обновляем themeId
+    default:
+      return state;
+  }
+};
+
+// Действие для изменения themeId
+export const changeThemeId = (id: number): ChangeThemeAction => ({
+  type: "SET_THEME_ID",
+  id,
+});
