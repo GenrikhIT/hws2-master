@@ -1,11 +1,18 @@
 .pagination {
-    display: flex;
+  display: flex;
+  width: 497px;
 }
 
 .text1 {
-
+  font-size: 14px;
+  font-family: Roboto;
+  align-content: center;
+  margin: 5px;
 }
 
 .text2 {
-
+  font-size: 14px;
+  font-family: Roboto;
+  align-content: center;
+  margin: 5px;
 }

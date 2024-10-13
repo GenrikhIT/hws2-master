@@ -1,27 +1,38 @@
 .tech {
-    width: 50vw;
+  width: 50vw;
 }
 
 .developer {
-
 }
 
 .techHeader {
-    width: 50vw;
+  width: 50vw;
 }
 
 .developerHeader {
-
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
 .rowHeader {
-    display: flex;
+  display: flex;
 }
 
 .loading {
-
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(0, 0, 0, 0.1); /* Полупрозрачная граница */
+  border-top: 5px solid blue; /* Верхняя часть будет окрашена */
+  border-radius: 50%; /* Круглая форма */
+  animation: spin 1s linear infinite; /* Анимация вращения */
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); /* Начало вращения с 0 градусов */
+  }
+  100% {
+    transform: rotate(360deg); /* Вращение на 360 градусов */
+  }
 }
