@@ -112,7 +112,6 @@ const HW15 = () => {
       </div>
     </div>
   ));
-  debugger;
   return (
     <div id={"hw15"}>
       <div className={s2.hwTitle}>Homework #15</div>
