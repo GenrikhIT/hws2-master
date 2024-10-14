@@ -66,7 +66,6 @@ const HW15 = () => {
 
   const onChangePagination = (newPage: number, newCount: number) => {
     // делает студент
-
     setPage(newPage);
     setCount(newCount);
 

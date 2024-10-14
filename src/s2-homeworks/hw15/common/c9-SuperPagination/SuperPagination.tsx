@@ -24,7 +24,7 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = ({
     event: React.ChangeEvent<unknown>,
     page: number
   ) => {
-    onChange(page, lastPage);
+    onChange(page, itemsCountForPage);
   };
 
   const onChangeSelect = (event: React.ChangeEvent<HTMLSelectElement>) => {
